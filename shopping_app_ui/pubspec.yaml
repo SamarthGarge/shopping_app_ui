@@ -1,0 +1,36 @@
+name: shopping_app_ui
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.16
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Gordita
+      fonts:
+        - asset: assets/fonts/Gordita_Regular.otf
+        - asset: assets/fonts/Gordita_Medium.otf
+          weight: 500
+        - asset: assets/fonts/Gordita_Bold.otf
+          weight: 700
+        - asset: assets/fonts/Gordita_Light.otf
+          weight: 300
